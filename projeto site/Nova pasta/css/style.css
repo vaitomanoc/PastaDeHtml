@@ -1,0 +1,58 @@
+﻿body, *     
+{
+    margin:0px;   
+    
+}
+
+.centralizar{
+    width: 70%;
+    max-width: 100%;
+    margin:0 auto;
+    display: table;
+    
+}
+
+header{
+  width: 100%;
+    background-color: silver;
+        DISPLAY: flex;
+    
+    
+}
+header div{
+    float: left;
+   
+    
+}
+
+header nav ul
+{
+    
+    display: -webkit-box;
+    padding: 0px 150px;
+}
+
+header nav ul li
+{
+    list-style-type: none;
+    padding:68px 10px; 
+    margin: 0px 13px;
+    text-decoration:none;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+header nav ul li a
+{
+   text-decoration: none;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+        text-transform:capitalize;
+}
+.imag{
+	width:50%;
+	float:left;
+}
